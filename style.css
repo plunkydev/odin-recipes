@@ -19,3 +19,10 @@ h1 {
     font-family: 'Dancing Script', cursive;
     color: rgb(59, 59, 59);
 }
+
+ul {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
