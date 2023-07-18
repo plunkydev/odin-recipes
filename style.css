@@ -3,3 +3,8 @@
     padding: 0;
     padding: 0;
 }
+
+body {
+    margin: 0 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
