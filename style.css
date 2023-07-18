@@ -8,3 +8,10 @@ body {
     margin: 0 10%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1 {
+    text-align: center;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-radius: 50% 20%;
+}
