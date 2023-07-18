@@ -26,3 +26,8 @@ ul {
     justify-content: space-evenly;
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
