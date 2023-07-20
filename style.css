@@ -22,7 +22,7 @@ h1 {
 }
 
 ul {
-    width: 100%;
+    width: auto;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
@@ -41,6 +41,8 @@ li {
     cursor: default;
     transition: all 400ms ease;
     flex: 250px;
+    max-width: 400px;
+    min-width: 250px;
 }
 
 li:hover {
@@ -55,11 +57,12 @@ figure {
 li img {
     width: 100%;
     height: 210px;
+    object-fit: cover;
 }
 ul li div {
     padding: 15px;
     text-align: center;
-    height: 45vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
